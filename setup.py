@@ -13,9 +13,10 @@ setup(
     name='flask-go',
     version='0.1',
     description='Let you create flask project like use django-admin',
-    url='',
+    url='https://github.com/CelloCello/flask-go',
     author='Cello Hsueh',
-    license='MIT',
+    author_email="cello1124@gmail.com",
+    license='BSD',
     packages=find_packages(exclude=EXCLUDE_FROM_PACKAGES),
     include_package_data=True,
     scripts=['bin/flask-go.py'],
@@ -26,5 +27,15 @@ setup(
         'flask',
         'flask-script',
     ], 
-    zip_safe=False
+    zip_safe=False,
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Environment :: Web Environment',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Topic :: Internet :: WWW/HTTP :: Dynamic Content',
+        'Topic :: Software Development :: Libraries :: Python Modules'
+    ]    
 )
