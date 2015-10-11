@@ -11,7 +11,7 @@ EXCLUDE_FROM_PACKAGES = [
 
 setup(
     name='flask-go',
-    version='0.1',
+    version='0.1.1',
     description='Let you create flask project like use django-admin',
     url='https://github.com/CelloCello/flask-go',
     author='Cello Hsueh',
